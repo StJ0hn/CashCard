@@ -13,7 +13,7 @@ The project simulates the backend of a system where parents register and manage 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
 ![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
 ![TDD](https://img.shields.io/badge/TDD-2496ED?style=for-the-badge&logo=testinglibrary&logoColor=white)
 
@@ -47,7 +47,8 @@ CashCard/
 │       └── resources/
 │           └── example/cashcard/
 │               └── expected.json
-├── pom.xml
+├── build.gradle
+├── settings.gradle
 └── README.md
 ```
 
