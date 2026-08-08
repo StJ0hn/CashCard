@@ -46,6 +46,11 @@ class SecurityConfig {
                 .password(passwordEncoder.encode("qrs456"))
                 .roles("NON-OWNER") // new role
                 .build();
-        return new InMemoryUserDetailsManager(sarah, hankOwnsNoCards);
+        UserDetails kumar2 = users
+                .username("kumar2")
+                .password(passwordEncoder.encode("def123"))
+                .roles("CARD-OWNER")
+                .build();
+        return new InMemoryUserDetailsManager(sarah, hankOwnsNoCards, kumar2);
     }
 }
